@@ -1,0 +1,5 @@
+<div>
+  <p>My TodoList</p>
+  <app-todolist [todos]="todos" [onDelete]="onDelete.bind(this)"></app-todolist>
+  <app-todoinput [onAdd]="onAdd.bind(this)"></app-todoinput>
+</div>
